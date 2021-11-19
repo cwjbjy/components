@@ -20,8 +20,8 @@ export default {
           icon: require("../assets/images/menus/echarts_heatmap.png"),
         },
         {
-          name: "图片上传",
-          path: "/fileUp",
+          name: "瀑布流图",
+          path: "/waterfall",
           key: "fileUp",
           icon: require("../assets/images/menus/upload.png"),
         },

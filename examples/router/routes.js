@@ -1,5 +1,6 @@
 const menu = () => import("../views/menu.vue");
 const toast = () => import("../views/toast.vue");
+const waterfall = () => import("../views/waterfall.vue");
 
 const routes = [
   {
@@ -13,6 +14,10 @@ const routes = [
   {
     path: "/toast",
     component: toast,
+  },
+  {
+    path: "/waterfall",
+    component: waterfall,
   },
 ];
 
