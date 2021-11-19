@@ -1,9 +1,9 @@
-import wjButton from './button/src/index.vue'
+import wjMenu from './wjMenu/index.vue'
 import wjToast from './toast/index'
 
 //以数组的结构保存组件，便于遍历
 const components = [
-   wjButton
+   wjMenu
 ]
 
 const install = function (Vue) {

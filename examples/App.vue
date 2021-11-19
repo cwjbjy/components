@@ -1,19 +1,12 @@
 <template>
   <div id="app">
-    <wj-button></wj-button>
-    <button @click="click">按钮</button>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-
 export default {
   name: "App",
-  methods: {
-    click() {
-      this.$wjToast({ msg: "cheng" });
-    },
-  },
 };
 </script>
 
@@ -25,5 +18,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+body {
+  margin: 0;
+  padding: 0;
 }
 </style>
